@@ -19,7 +19,7 @@ const NuevaCuenta = () => {
             ...usuario,
             [e.target.name]: e.target.value
         })
-    } 
+    }  
 
     const onSubmit = e =>{
         e.preventDefault()
